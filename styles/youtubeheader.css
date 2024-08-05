@@ -1,0 +1,118 @@
+.header{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+
+/* css to stick header to the top of the page  */
+    background-color: rgb(31, 32, 31);
+    color: rgb(197, 164, 104);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* border-bottom: 2px solid rgb(202, 197, 197); */
+}
+
+
+ .left-sec{
+    /*background-color: rgb(212, 173, 145);*/
+    align-items: center;
+    width: 160px;
+    display: flex;
+    flex-shrink: 0;
+ }
+
+ .middle-sec{
+    /*background-color: rgb(212, 173, 145);*/
+    flex: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+    /*max-width: 600px;*/
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+ }
+
+ .right-sec{
+    /*background-color: rgb(212, 173, 145);*/
+    width: 200px;
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.harmburger-menu {
+    height: 55px;
+    margin: 20px;
+}
+.ytlogo {
+    height: 55px;
+    width: 90px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+/* this isnt need since the class is set for the image and the image is imbeded inside the button tag
+.search-button {
+    border: 2px solid rgb(114, 108, 108);
+    margin-left: -1;
+    cursor: pointer;
+    height: 5px;
+} */
+
+.search-box {
+    border: 1px solid white; 
+    flex: 1;
+    height: 35px;
+    font-weight: bold;
+    box-shadow: inset 1px 2px 5px rgba(124, 113, 113, 0.15);
+}
+
+.search-box::placeholder{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;    
+    padding-left: 12px;    
+}
+
+.search-button-img {
+    height: 29px;
+    width: 50px;
+    margin-top: 5px;
+}
+
+
+.mic-button {
+    border-radius: 200%;
+    border: none;
+    margin: 4px;
+    background-color: rgb(255, 252, 252);
+}
+.mic-button-img {
+    height: 25px;
+    border-radius: 200%;
+    margin: 4px;
+}
+
+.application-icon,.notifi-icon {
+    height: 25px;
+    margin: 10px;
+    width: 50px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.channel-pic {
+    height: 25px;
+    margin: 10px;
+    width: 50px;
+    border-radius: 60px;
+}
+.upload-icon{
+    height: 40px;
+    margin: 10px;
+    margin-left: -20px;
+    width: 50px;
+    border-radius: 20px;
+}

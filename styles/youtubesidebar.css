@@ -1,0 +1,19 @@
+/*css stye for the sidebar*/ 
+.side-bar {
+    background-color: rgb(34, 33, 33);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 60px;
+    width: 70px;
+    /* border-right: 2px solid rgb(202, 197, 197); */
+}
+
+.sidebar1 {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.sidebar1:hover{
+    background-color: rgb(116, 111, 111);
+}
